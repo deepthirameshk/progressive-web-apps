@@ -1,0 +1,140 @@
+table{
+  width:100%;
+  border-collapse: collapse;
+  box-shadow: 3px 3px 3px #ddd;
+}
+tr:nth-child(even){
+  background: #ddd;
+}
+td,
+th{
+  padding: 1%;
+
+}
+.skillDiv{
+  width: 100%;
+  border-left: 3px  solid #0E4DBA;
+  padding: 1%;
+  margin: 1%;
+}
+span
+{
+  background: #0E4DBA;
+  color:#fff;
+  border:1px solid #082D6E;
+  box-shadow: 3px 3px 3px #ddd;
+  margin:1%;
+  padding: 1%;
+  border-radius: 5px;
+ }
+
+.parent{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+}
+.child1{
+  background: pink;
+  width:30%;
+  border: 1px  solid #000;
+  padding: 1%;
+  margin: 1%;
+}
+.child2{
+  width:70%;
+  border: 1px  solid #000;
+  padding: 1%;
+  margin: 1%;
+}
+.profile{
+  width:200px;
+  height: auto;
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+}
+h2{
+  text-align:center;
+  color: #AD4F3B;
+}
+a{
+  text-decoration: none;
+  font-size: 20px;
+}
+p{
+  font-size: 20px;
+}
+  /*small screen  */
+@media only screen and  (min-width:320px)  and  (max-width:480px)
+{
+  .parent{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+  }
+  .child1{
+    background: #73C6B6;
+    width:100%;
+    border: 1px  solid #000;
+    padding: 1%;
+    margin: 1%;
+  }
+  .child2{
+    background: #85C1E9;
+    width:100%;
+    border: 1px  solid #000;
+    padding: 1%;
+    margin: 1%;
+  }
+
+}
+/*  medium screens*/
+@media only screen and  (min-width:481px)  and  (max-width:768px)
+{
+  .parent{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+  }
+  .child1{
+    background: #E9F2EE;
+    width:100%;
+    border: 1px  solid #000;
+    padding: 1%;
+    margin: 1%;
+  }
+  .child2{
+    background: #CAF0F2;
+    width:100%;
+    border: 1px  solid #000;
+    padding: 1%;
+    margin: 1%;
+  }
+    *{
+     font-size: 25px;
+     }
+
+}
+/* large screen */
+@media only screen and  (min-width:769px)  and  (max-width:1024px)
+{
+  .parent{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+  }
+  .child1{
+    background: #D5D8DC  ;
+    width:100%;
+    border: 1px  solid #000;
+    padding: 1%;
+    margin: 1%;
+  }
+  .child2{
+    background: #99A3A4;
+    width:100%;
+    border: 1px  solid #000;
+    padding: 1%;
+    margin: 1%;
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "basics":{
+    "name":"deepthi ramesh",
+    "role":"mean-stack",
+    "moblie":"+91 9701424105",
+    "email":"deepthirameshk@gmail.com"
+  },
+  "career":{
+    "info": "To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
+  },
+  "education":[
+    {
+      "degree":"B.Tech(computer science and engineering)",
+      "institute":"vignan's nirula",
+      "data":["2016-20","85%"]
+    },
+    {
+      "degree":"Intermediate(MPC)",
+      "institute":"SriChaitanya",
+      "data":["2014-16","95%"]
+    },
+    {
+      "degree":"SSC(CBSC)",
+      "institute":"Naveena vidhyanikethan",
+      "data":["2013-14","85%"]
+    }
+  ],
+  "skills":[
+    {
+      "title":"programming languages",
+      "content":["python","c","java","c++","R"]
+    },
+    {
+      "title":"Data Bases",
+      "content":["sql","oracle","mysql"]
+    },
+    {
+      "title":"web technologies",
+      "content":["HTML","XML","javascript"]
+    },
+    {
+      "title":"operating system",
+      "content":["Linux","windows","microsoft"]
+    }
+  ]
+}
